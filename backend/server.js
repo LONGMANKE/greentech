@@ -1,5 +1,4 @@
 const app = require("./app");
-const express = require("express")
 const cloudinary = require("cloudinary");
 // const dotenv = require("dotenv");
 const connectDatabase = require("./config/database")
@@ -16,15 +15,15 @@ process.on("uncaughtException", (err) => {
 
 //config
 
-dotenv.config({ path: "backend/config/config.env" });
+// dotenv.config({ path: "backend/config/config.env" });
 
 
-  // if (process.env.NODE_ENV === "production") {
-  //   app.use(express.static(path.join(__dirname, "frontend/build")));
-  //   app.get("*", (req, res) => {
-  //     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
-  //   });
-  // }
+  if (process.env.NODE_ENV === "production") {
+    app.use(express.static(path.join(__dirname, "client/build")));
+    app.get("*", (req, res) => {
+      res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+    });
+  }
  
 //connecting with database 
 connectDatabase();
