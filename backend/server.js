@@ -1,6 +1,5 @@
 const app = require("./app");
 const express = require("express")
-const app = express();
 const cloudinary = require("cloudinary");
 // const dotenv = require("dotenv");
 const connectDatabase = require("./config/database")
