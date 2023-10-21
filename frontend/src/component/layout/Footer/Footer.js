@@ -19,16 +19,17 @@ const Footer = () => {
 
       <div className="midFooter">
         <h1>GreenTech Collectors</h1>
-        <p>"High quality service is our first priority!"</p>
+        <p>"Our vision is to be a global leader in sustainable waste collection, management and recycling solutions, creating a cleaner, greener,
+          and healthier planet for future generations."</p>
 
-        <p>Copyrights 2023 &copy; Group 7</p>
+        <p>Copyrights 2023 &copy; GreenTech Collectors</p>
       </div>
 
       <div className="rightFooter">
         <h4>Follow Us</h4>
-        <a href="http://instagram.com/m.b.u.r.u.u">Instagram</a>
-        <a href="https://youtube.com/channel/UCY4w6WS1XMPBqIEmPypifVQ">Youtube</a>
-        <a href="http://facebook.com/LONGMANKE">Facebook</a>
+        <a href="http://instagram.com/">Instagram</a>
+        <a href="https://youtube.com/">Youtube</a>
+        <a href="http://facebook.com/">Facebook</a>
       </div>
     </footer>
   );

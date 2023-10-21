@@ -33,7 +33,7 @@
 
 .aboutSectionContainer > h1 {
   font: 400 3vmax "Roboto";
-  color: tomato;
+  color: rgb(0, 255, 13);
   margin: 2vmax;
 }
 
@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2vmax;
+  padding: 1vmax;
   box-sizing: border-box;
 }
 
@@ -56,15 +56,18 @@
   font: 100 1vmax "Roboto";
 }
 
-.aboutSectionContainer > div > div > button {
+.aboutSectionContainer > div > div > p {
   margin: 1vmax 0;
+  color: rgb(0, 255, 13);
+  font-size: large;
 }
 
 .aboutSectionContainer > div > div > span {
   font: 100 1vmax "Roboto";
   color: rgba(0, 0, 0, 0.616);
   text-align: center;
-  width: 80%;
+  width: 100%;
+  font-size: 100%;
 }
 
 .aboutSectionContainer2 {
